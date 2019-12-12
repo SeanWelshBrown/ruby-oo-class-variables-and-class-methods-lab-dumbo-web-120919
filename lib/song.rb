@@ -35,6 +35,8 @@ class Song
       elsif !!genre_count_hash[genre]
         genre_count_hash[genre] += 1 
       end
+    end
+    genre_count_hash
   end 
   
 end
